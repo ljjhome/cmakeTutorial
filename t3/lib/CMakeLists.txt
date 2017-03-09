@@ -8,3 +8,5 @@ INSTALL(TARGETS hello hello_static
 	LIBRARY DESTINATION "~/code/tmp/lib"
 	ARCHIVE DESTINATION "~/code/tmp/lib"
 	)
+
+INSTALL(FILES hello.h DESTINATION "~/code/tmp/include")
